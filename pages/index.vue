@@ -1,10 +1,14 @@
 <template lang="pug">
 .container
-  asciiart
+  monoqlo-dance
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    console.log('hi')
+  },
+}
 </script>
 
 <style lang="sass"></style>
