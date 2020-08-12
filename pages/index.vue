@@ -1,6 +1,7 @@
 <template lang="pug">
 .container
-  colorful-dance
+  p.click  Click
+  monoqlo-dance
 </template>
 
 <script>
@@ -11,4 +12,14 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+
+.click
+  position: fixed
+  top: 40px
+  left: 40px
+  cursor: pointer
+  color: white
+  mix-blend-mode: difference
+  z-index: 999
+</style>

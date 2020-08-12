@@ -20,7 +20,7 @@ export function main(_p5) {
   p5.setup = () => {
     const canvas = p5.createCanvas(fullSize.width, fullSize.height)
     canvas.parent('processing-render')
-    movie = p5.createVideo('./movie/barret3.mp4') // eslint-disable-line
+    movie = p5.createVideo('./movie/ballet3.mp4') // eslint-disable-line
     movie.hide()
 
     movie.size(fullSize.width, fullSize.height)
