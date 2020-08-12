@@ -1,6 +1,6 @@
 <template lang="pug">
 .container
-  monoqlo-dance
+  colorful-dance
 </template>
 
 <script>

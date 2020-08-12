@@ -13,7 +13,7 @@ export default {
         canvas.parent('processing-render')
       }
     }
-    const script = require('./js/sketch.js') // eslint-disable-line
+    const script = require('@/components/colorful-dance/js/colorful.js') // eslint-disable-line
     const P5 = require('p5')
     new P5(script.main)
   },
@@ -22,7 +22,7 @@ export default {
 
 <style lang="sass">
 .container
-  background: rgb(0, 0, 0)
+  background: #F8F8F8
   width: 100vw
   height: 100vh
   display: grid

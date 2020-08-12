@@ -13,7 +13,7 @@ export default {
         canvas.parent('processing-render')
       }
     }
-    const script = require('./js/sketch.js') // eslint-disable-line
+    const script = require('@/components/monoqlo-dance/js/sketch.js') // eslint-disable-line
     const P5 = require('p5')
     new P5(script.main)
   },
